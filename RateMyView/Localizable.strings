@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  RateMyView
+
+  Created by Daniel Anderton on 16/07/2013.
+  Copyright (c) 2013 3 Equals. All rights reserved.
+*/
+
+"myviewheading" = "My View";
+"myviewsubtitle" = "Rate Your View to help other explorers, and to guide future decision making.";
+"myviewtakephoto" = "Take a photo and rate your view. Your rating is automatically geotagged.";
+"myviewrating" = "Rating:";
+"myviewdescribe" = "Choose 3 words or phrases to describe your view:";
+"myviewphase1" = "Phrase 1";
+"myviewphase2" = "Phrase 2";
+"myviewphase3" = "Phrase 3";
+"myviewdescribeMore" = "Do you have any comments on your view you’d like to share:";
+"myviewdescribeknowledge" = "How well do you feel you know the area in your view?";
+"Not at all" = "Not at all";
+"Kind of" = "Kind of";
+"Very Well" = "Very Well";
+"myviewage" = "Your Age:";
+"Camera" = "Camera";
+"Submit" = "Submit";
+"nocamera" = "Device does not support a camera";
+"Uploading.." = "Uploading..";
+"A valid photo, your age, knowledge of the area and phrases to describe your view are required" = "A valid photo, your age, knowledge of the area and phrases to describe your view are required";
+"Error" = "Error";
+"Something went wrong, Please try again later" = "Something went wrong, Please try again later";
+"Ok" = "Ok";
+"Success" = "Success";
+"Terms of Service" = "Terms of Service";
+"View your results online at ratemyview.co.uk" = "View your results online at ratemyview.co.uk";
+"View it - Capture it - Rate it - Share it!" = "View it - Capture it - Rate it - Share it!";
+"Rate my View is an exciting new way to capture and share what you really feel about the local landscape! It is part of a project to discover new ways of exploring landscapes, better understand how we all see them and to discover what we particularly value.\n\nTo do this we need to burrow beneath “that’s a nice view” and delve a little deeper to find out what we really think about our coast, estuaries, countryside and villages. By taking part and rating your view, you will be adding your valuable piece of the jigsaw. This will help us complete the giant puzzle which makes up a picture of our landscape.\n\nYou can add and rate pictures whenever you want. They will be shared onto a map where you can see what everyone else thought too, as well as sent to us to enter onto our project.\nIt’s easy, quick and good fun – have a go!" = "Rate my View is an exciting new way to capture and share what you really feel about the local landscape! It is part of a project to discover new ways of exploring landscapes, better understand how we all see them and to discover what we particularly value.\n\nTo do this we need to burrow beneath “that’s a nice view” and delve a little deeper to find out what we really think about our coast, estuaries, countryside and villages. By taking part and rating your view, you will be adding your valuable piece of the jigsaw. This will help us complete the giant puzzle which makes up a picture of our landscape.\n\nYou can add and rate pictures whenever you want. They will be shared onto a map where you can see what everyone else thought too, as well as sent to us to enter onto our project.\nIt’s easy, quick and good fun – have a go!";

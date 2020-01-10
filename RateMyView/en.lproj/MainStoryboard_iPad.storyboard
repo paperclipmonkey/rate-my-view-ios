@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A584" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="1Eo-56-oNe">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Vkx-jd-AG1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLb-Xk-SJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="1Eo-56-oNe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sfJ-bV-RJ1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="D3E-M1-SF6" kind="relationship" relationship="rootViewController" id="hdy-w1-sfZ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="525" y="-513"/>
+        </scene>
+        <!--Vi Pad View Controller-->
+        <scene sceneID="ufO-2L-HT9">
+            <objects>
+                <viewController id="D3E-M1-SF6" customClass="RMViPadViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6o3-4x-h4P">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="rJC-Y4-rBs">
+                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Add My View" id="i7P-7O-lAX">
+                                        <connections>
+                                            <action selector="didTapAddView:" destination="D3E-M1-SF6" id="EIK-oC-wHW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ysr-T0-RNA"/>
+                                    <barButtonItem style="plain" id="388-47-pDZ">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="AMJ-lO-xvn">
+                                            <rect key="frame" x="303" y="8" width="161" height="29"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Terrain"/>
+                                                <segment title="Satellite"/>
+                                            </segments>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="id8-OQ-B4p"/>
+                                    <barButtonItem title="About" id="4Oe-V6-lNl">
+                                        <connections>
+                                            <action selector="didTapAbout:" destination="D3E-M1-SF6" id="jP0-Ci-uAR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="v6w-WX-SWI"/>
+                    <connections>
+                        <outlet property="mapSegment" destination="AMJ-lO-xvn" id="UGb-WY-FO3"/>
+                        <outlet property="toolbar" destination="rJC-Y4-rBs" id="ujl-tb-g1Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9C-dU-0A1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1467" y="-262"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
